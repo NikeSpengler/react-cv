@@ -1,6 +1,6 @@
-import "./footer.scss""
+import "./footer.scss"
 
-export default function Footer() 
+export default function Footer() {
   return (
     <div className="footer">
       Footer
