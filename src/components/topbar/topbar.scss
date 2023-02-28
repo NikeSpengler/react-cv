@@ -1,0 +1,30 @@
+.topbar {
+    width: 100%;
+    height: 70px;
+    // background-color: #FF0303;
+    background-color: whitesmoke;
+    // background-color: #FF0032;
+    // color: #FF0032;
+    color: #735F32;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+
+    .wrapper {
+        padding: 20px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left {
+
+            .logo {
+                font-size: 30px;
+                font-weight: 400;
+                text-decoration: none;
+                // color: #FF0032;
+                color: #562B08;
+            }
+        }
+    }
+}
