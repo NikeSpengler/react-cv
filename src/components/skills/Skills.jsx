@@ -1,7 +1,11 @@
 import "./skills.scss"
 
-export default function Skills() {
+function Skills() {
   return (
-    <div className='skills'>Skills</div>
+    <div className="skills">
+      Skills
+    </div>
   )
 }
+
+export default Skills

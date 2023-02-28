@@ -1,9 +1,10 @@
 import "./intro.scss"
+import { Casino } from '@mui/icons-material';
 
-export default function Intro() {
+export default function intro() {
   return (
     <div className="intro">
-        Intro
+      <Casino/>
     </div>
   )
 }
