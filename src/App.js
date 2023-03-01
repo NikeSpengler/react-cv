@@ -1,10 +1,11 @@
 import "./app.scss"
-import Topbar from "./components/topbar/Topbar.jsx"
-import Intro from "./components/intro/Intro.jsx"
-import Skills from "./components/skills/Skills.jsx"
-import Contact from "./components/contact/Contact.jsx"
-import Footer from "./components/footer/Footer.jsx"
-import About from "./components/about/About.jsx"
+import Topbar from "./components/topbar/Topbar"
+import Menu from "./components/menu/Menu"
+import Intro from "./components/intro/Intro"
+import Skills from "./components/skills/Skills"
+import Contact from "./components/contact/Contact"
+import Footer from "./components/footer/Footer"
+import About from "./components/about/About"
 import { useState } from "react"
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className="app">
     <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+    <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
         <Intro/>
         <About/>
