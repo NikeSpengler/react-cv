@@ -5,11 +5,13 @@ import Skills from "./components/skills/Skills.jsx"
 import Contact from "./components/contact/Contact.jsx"
 import Footer from "./components/footer/Footer.jsx"
 import About from "./components/about/About.jsx"
+import { useState } from "react"
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false)
   return (
     <div className="app">
-    <Topbar/>
+    <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
         <Intro/>
         <About/>
