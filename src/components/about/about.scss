@@ -2,5 +2,22 @@
     // background-color: #6F1AB6;
     background-color: #FFA1CF;
     // color: #630606;
-    color: #541212;
+    color: #562B08;
+    // color: #541212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .about-text {
+        font-size: 25px;
+        line-height: 35px;
+        letter-spacing: 0.7px;
+        padding: 0px 25px;
+        width: 70%;
+        overflow: hidden;
+
+        
+    } 
 }
