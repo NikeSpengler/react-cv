@@ -4,4 +4,41 @@
     background-color: whitesmoke;
     // color: #FFDB89;
     color: #8B7E74;
+
+    .left {
+        display: flex;
+        flex-direction: column;
+
+        ul {
+            margin: 0;
+            padding-left: 40;
+            list-style: none;
+            font-size: 35px;
+            color: #735F32;
+            
+    
+            li {
+                margin-bottom: 5px;
+    
+                a{
+                    font-size: inherit;
+                    text-decoration: none;
+                    color:inherit;
+                    margin-bottom: 100px;
+                    
+                }
+                &:hover {
+                    color: black;
+                }
+            }
+        }
+        
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
