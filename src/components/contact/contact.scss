@@ -1,21 +1,22 @@
 .contact {
-    background-color: #98BAE7;
+    background-color: whitesmoke;
+    // background-color: #98BAE7;
     color: #3C2317;
 
     .contact-text {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        // align-items: center;
+        // justify-content: center;
         padding-top: 40px;
 
         ul {
-            // margin: 0;
-            // padding-left: 40;
+            margin: 0;
+            padding-left: 40;
             list-style: none;
             font-size: 35px;
             color: #735F32;
-            text-align: center;
+            // text-align: center;
             
     
             li {

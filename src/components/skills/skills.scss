@@ -2,4 +2,34 @@
     // background-color: #3D1766;
     background-color: #464E2E;
     color: #FFA1CF;
+
+    .text-line {
+        width: 50%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        span{
+            width: 90%;
+            height: 3px;
+            background-color:  whitesmoke;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        ul {
+            padding-top: 20px;
+            padding-bottom: 20px; 
+
+            li {
+              font-size: 20px; 
+            }
+        }
+    }
 }
