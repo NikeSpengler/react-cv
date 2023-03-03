@@ -1,4 +1,8 @@
+@import "../../global.scss";
+
 .about {
+    width: 100vw;
+    height: 100vh;
     // background-color: #6F1AB6;
     background-color: #FFA1CF;
     // color: #630606;
@@ -18,6 +22,10 @@
         width: 70%;
         overflow: hidden;
 
-        
+        @include mobile {
+            font-size: 20px;
+            line-height: 25px;
+
+        }
     } 
 }
