@@ -1,35 +1,31 @@
+@import "../../global.scss";
+
 .skills {
-    // background-color: #3D1766;
+    width: 100vw;
+    height: 100vh;
+    // background-color: #6F1AB6;
     background-color: #464E2E;
+    // color: #630606;
     color: #FFA1CF;
+    // color: #541212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
-    .text-line {
-        width: 50%;
-        height: 600px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
+    .skills-text {
+        font-size: 25px;
+        line-height: 35px;
+        letter-spacing: 0.7px;
+        padding: 0px 25px;
+        width: 70%;
+        overflow: hidden;
 
-        span{
-            width: 90%;
-            height: 3px;
-            background-color:  whitesmoke;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        @include mobile {
+            font-size: 20px;
+            line-height: 25px;
 
         }
-
-        ul {
-            padding-top: 20px;
-            padding-bottom: 20px; 
-
-            li {
-              font-size: 20px; 
-            }
-        }
-    }
+    } 
 }

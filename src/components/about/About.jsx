@@ -14,7 +14,7 @@ export default function About() {
       <div className="about-text">
         <div className="item">
           <p>
-            I am Nike Spengler, a frontend developer with a background in graphic design who enjoys working both in teams and independently. The last few years my focus has shifted from graphic design to web development, which has been fun and exciting. I like working with visual expressions and always strive to find an intuitive functionality, as well as solving problems and writing code that is easy to understand and maintain. 
+            I am Nike Spengler, a junior software developer based in Stockholm. Before I decided to become a developer, I worked as a graphic designer and I have a Bachelor's degree in Graphic Design & Illustration from Konstfack GDI. Most of all, it has given me a deep understanding and a keen interest in usability. As a collegue, I am prestigeless and passionate about collaborating with others to develop software that meets the needs of users and delivers real value.
           </p>
         </div>
       </div> 
